@@ -1,4 +1,5 @@
 import plotly.graph_objects as go
+from data.cleanedData import cityPopulationDict
 
 fig = go.Figure(go.Scattermap(
         lat=['45.5017'],
